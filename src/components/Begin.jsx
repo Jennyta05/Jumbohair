@@ -17,11 +17,7 @@ return(
        <div className='girl'>
              <img className='logo' src={Ellipse1} alt='this is the logo'/>
         </div>
-        <div className='welcome'>
-             <h2 className='well'>
-             Bienvenida a Jumbo hair la mejor tienda de moñas Scrunchies en Facatativá
-             </h2>
-        </div>
+        
    </div>
    
     </>  
