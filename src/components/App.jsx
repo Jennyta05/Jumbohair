@@ -1,12 +1,13 @@
 import '../Styles/App.css'
-import {Begin} from "./Begin";
+
+import {Home} from "../Pages/Home";
 
 
 
 function App(){
   return(
-    
-    <Begin />
+<Home/>
+  
   )
 }
 
