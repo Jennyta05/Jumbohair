@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Jumbohair/static/css/main.3e6bd105.css",
-    "main.js": "/Jumbohair/static/js/main.ba56d6af.js",
+    "main.css": "/Jumbohair/static/css/main.c2d0d434.css",
+    "main.js": "/Jumbohair/static/js/main.8e760f24.js",
     "static/js/787.c530cd2c.chunk.js": "/Jumbohair/static/js/787.c530cd2c.chunk.js",
     "static/media/Maderarosa.jpg": "/Jumbohair/static/media/Maderarosa.f12412fa75739349e4ea.jpg",
     "static/media/Ellipse1.png": "/Jumbohair/static/media/Ellipse1.7d98a52b61f049f0dc11.png",
     "index.html": "/Jumbohair/index.html",
-    "main.3e6bd105.css.map": "/Jumbohair/static/css/main.3e6bd105.css.map",
-    "main.ba56d6af.js.map": "/Jumbohair/static/js/main.ba56d6af.js.map",
+    "main.c2d0d434.css.map": "/Jumbohair/static/css/main.c2d0d434.css.map",
+    "main.8e760f24.js.map": "/Jumbohair/static/js/main.8e760f24.js.map",
     "787.c530cd2c.chunk.js.map": "/Jumbohair/static/js/787.c530cd2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6bd105.css",
-    "static/js/main.ba56d6af.js"
+    "static/css/main.c2d0d434.css",
+    "static/js/main.8e760f24.js"
   ]
 }
