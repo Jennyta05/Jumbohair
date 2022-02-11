@@ -1,34 +1,18 @@
- const Info2 =[
+export const Info2 =[
     {
-        "id": 1,
-        "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
-        "name": "Scrunchie Jumbo Lila",
+        "id": 5,
+        "image": "https://drive.google.com/uc?export=download&id=1x4YQGCizJYcNnbe4rVcUf5y-4TR4KBwO",   
+        "name": "Set scrunchie Jumbo Satin ",
         "price": "3800",
         "description": "Scrunchie jumbo, material satín en color lila, caucho redondo perfecto para sujetar el cabello."
     },
     {
-        "id": 2,
-        "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
-        "name": "Scrunchie Jumbo transparente",
+        "id": 8,
+        "image": "https://drive.google.com/uc?export=download&id=1JGNVHuDn7bWb7vdH4icYtpS1CQHcn2DW",
+        "name": "Set scrunchie Jumbo Roja",
         "price": "3800",
-        "description":""
+        "description": "Scrunchie jumbo, en tela de algodón color rojo, caucho redondo perfecto para sujetar el cabello.Scrunchie jumbo, en tela de algodón color rojo con estampado de flores, caucho redondo perfecto para sujetar el cabello."
     },
-    {
-        "id": 3,
-        "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
-        "name": "Scrunchie Jumbo Organza/satin Lila",
-        "price": "3800"
-    },
-    {
-        "id": 4,
-        "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
-        "name": "Scrunchie Jumbo Roja",
-        "price": "3800"
-    },
-    {
-        "id": 5,
-        "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
-        "name": "Scrunchie Jumbo Roja estampado floral",
-        "price": "3800"
-    }
+   
  ]
+

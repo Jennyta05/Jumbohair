@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Petemoss&family=Pridi:wght@200&display=swap');
-.card-product{
-    width: 50px;
-    height: 70px;
-    border: tomato;
+.container{
     margin: 60px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
   
 
 }
 .card-img{
+   
+  margin: 11px;
     width: 150px;
-    height: 160px;
+    height: 180px;
     border-radius: 5%;
     border:  solid 2px #EBD29A;
+    
 
 }
 .card-info{

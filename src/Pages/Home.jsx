@@ -1,14 +1,18 @@
 import { Begin } from "../components/Begin";
-import lila from '../images/img/lila.jpeg'
+import { Cards } from "../components/Cards";
+import Menu from "../images/img/Menu.png";
 import '../Styles/begin.css';
 import '../Styles/card.css';
 
 
-function Home (){
+function Home ({cardData, setCardData}){
 
 
     return(
       <>
+      <div>
+        <img src={Menu} alt="image from menu" />
+      </div>
       <div>
            <Begin/>
        </div> 
@@ -25,17 +29,13 @@ function Home (){
        </div>
        <div>
          <h2 className="title">Productos</h2>
-        
+        <Cards
+        cardData={cardData}
+        setCardData={setCardData}
+        />
+
        </div>
 
-       <div className="card-product">
-         <img className="card-img" src={lila} alt="image" />
-         <div className="card-info">
-         <h2>moña lila</h2>
-         <p>7000</p>
-       </div>
-        
-        </div>
        
        
       {/*  <div className="footer"></div> */}

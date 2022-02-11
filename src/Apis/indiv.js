@@ -1,5 +1,5 @@
 
-const Info =[
+export const Info =[
     {
         "id": 1,
         "image": "https://drive.google.com/uc?export=download&id=1y1PoiENdtBVzPfby_XSf6gCHvkaUUWyp",
@@ -32,4 +32,4 @@ const Info =[
 
 ]
 
-export default Info
+
