@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/todo-app-react/static/css/main.3e6bd105.css",
+    "main.js": "/todo-app-react/static/js/main.f749dd16.js",
+    "static/js/787.c530cd2c.chunk.js": "/todo-app-react/static/js/787.c530cd2c.chunk.js",
+    "static/media/Maderarosa.jpg": "/todo-app-react/static/media/Maderarosa.f12412fa75739349e4ea.jpg",
+    "static/media/Ellipse1.png": "/todo-app-react/static/media/Ellipse1.7d98a52b61f049f0dc11.png",
+    "index.html": "/todo-app-react/index.html",
+    "main.3e6bd105.css.map": "/todo-app-react/static/css/main.3e6bd105.css.map",
+    "main.f749dd16.js.map": "/todo-app-react/static/js/main.f749dd16.js.map",
+    "787.c530cd2c.chunk.js.map": "/todo-app-react/static/js/787.c530cd2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e6bd105.css",
+    "static/js/main.f749dd16.js"
+  ]
+}
