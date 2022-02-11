@@ -8,7 +8,7 @@ export function Cart({ cardData, setCardData }) {
 
     const [url, setUrl] = useState("")
     const message = () => {
-        let text = "https://wa.me/573118282038?text="
+        let text = "https://wa.me/573118282039?text="
         text += `Bienvenido a Jumbo hair , Estos son los productos que escogiste: \n\n`
         cardData.forEach(product => {
             text += `${product.name}\n`
