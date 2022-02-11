@@ -1,5 +1,6 @@
 .cart-cont{
     margin: 60px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,4 +26,10 @@
     color: rgb(10, 60, 78);
     font-size: 18px;
     font-family: Pridi;
+}
+.continue{
+    font-size: 50px;
+    color: rgb(0, 41, 60);
+    background: burlywood;
+    border-radius: 8px;
 }

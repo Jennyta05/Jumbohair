@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <HashRouter>
-        <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home
             cardData={cardData}

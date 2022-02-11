@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import { Begin } from "../components/Begin";
 import '../Styles/shoppingCart.css';
+
 
 
 export function Cart({ cardData, setCardData }) {
 
     const [url, setUrl] = useState("")
     const message = () => {
-        let text = "https://wa.me/573202601606?text="
+        let text = "https://wa.me/573118282038?text="
         text += `Bienvenido a Jumbo hair , Estos son los productos que escogiste: \n\n`
         cardData.forEach(product => {
             text += `${product.name}\n`
@@ -16,6 +18,10 @@ export function Cart({ cardData, setCardData }) {
         setUrl(encodeURI(text))
     }
         return (
+           <>
+           <div>
+               <Begin/>
+            </div>
             <div>
                 {cardData.map((item) => (
 
@@ -24,14 +30,17 @@ export function Cart({ cardData, setCardData }) {
                         <div className='cart-info'>
                             <h2> {item.name}</h2>
                             <p>{item.price}</p>
+                            <p>{item.description}</p>
                         </div>
                         
                     </div>
 
 
                 ))}
-                <a href={url} onClick={message} target="_blank" rel="noreferrer">Continuar</a>
+                <br /> <br /> <br /> <br /><br /><br /> <br /><br /><br /><br />
+                <a href={url} className='continue' onClick={message} target="_blank" rel="noreferrer">Continuar</a>
             </div>
+            </>
         )
     }
 

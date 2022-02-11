@@ -1,6 +1,5 @@
 import { Begin } from "../components/Begin";
 import { Cards } from "../components/Cards";
-import Menu from "../images/img/Menu.png";
 import '../Styles/begin.css';
 import '../Styles/card.css';
 
