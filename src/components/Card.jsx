@@ -15,16 +15,15 @@ function Card({cardData, setCardData}){
           <div className='container'>
              <img className='card-img'  width="150px" src={article.image} alt="product's image" />
           
-          <div className='card-info'>
-              <h2>{article.name}</h2>
-              <p>{article.price}</p>
-              <Alert
-                cardData={cardData}
-                setCardData={setCardData}
-                article={article}
-            
-              />
-          </div>
+               <div className='card-info'>
+                   <h2>{article.name}</h2>
+                   <p>{article.price}</p>
+                     <Alert
+                   cardData={cardData}
+                   setCardData={setCardData}
+                   article={article}
+                     />
+               </div>
           </div>
           </> 
           )}

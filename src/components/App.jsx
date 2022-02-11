@@ -1,30 +1,35 @@
 import '../Styles/App.css'
-import React,{useState} from 'react';
-import {Home} from "../Pages/Home";
+import React, { useState } from 'react';
+import { Home } from "../Pages/Home";
 
-import { BrowserRouter, Routes , Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './NavBar';
-import { shoppingCart } from './ShoppingCart';
- 
+import { Cart } from './ShoppingCart';
 
 
-function App(){
 
-  const [cardData, setCardData ] = useState ([])
+function App() {
 
-  return(
+  const [cardData, setCardData] = useState([])
+
+  return (
     <>
-     <BrowserRouter>
-     <Navbar/>
+      <HashRouter>
+        <Navbar />
         <Routes>
-        <Route path="/" element={<Home
-        cardData={cardData}
-        setCardData={setCardData}
+          <Route path="/" element={<Home
+            cardData={cardData}
+            setCardData={setCardData}
 
-        />}/>
-        <Route path="/Carrito" element={<shoppingCart/>}/>
+          />} />
+
+          <Route path="/Carrito" element={<Cart
+            cardData={cardData}
+            setCardData={setCardData}
+          />} />
         </Routes>
-      </BrowserRouter>
+
+      </HashRouter>
     </>
   )
 }

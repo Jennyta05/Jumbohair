@@ -11,9 +11,6 @@ function Home ({cardData, setCardData}){
     return(
       <>
       <div>
-        <img src={Menu} alt="image from menu" />
-      </div>
-      <div>
            <Begin/>
        </div> 
        <div className='welcome'>
